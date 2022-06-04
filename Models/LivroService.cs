@@ -10,6 +10,7 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
+                
                 bc.Livros.Add(l);
                 bc.SaveChanges();
             }
